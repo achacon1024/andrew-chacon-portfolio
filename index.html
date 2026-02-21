@@ -1,56 +1,189 @@
-<h1>Andrew Chacon</h1>
-<p>Bachelor of Science in Computer Science</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrew Chacon | Computer Science Portfolio</title>
 
-<h2>Professional Self-Assessment</h2>
-<p>
-<a href="narratives/Professional-Self-Assessment.pdf" target="_blank">
-View Professional Self-Assessment (PDF)
-</a>
-</p>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #57606a;
+      --border: #d0d7de;
+      --link: #0969da;
+    }
 
-<h2>Capstone Project: Animal Shelter Dashboard (CS 340)</h2>
-<p>
-This ePortfolio represents the culmination of my work throughout the Computer Science program at Southern New Hampshire University. The included artifact is a full-stack Animal Shelter Dashboard application built using Python, Dash, and MongoDB. For this capstone, I enhanced the original project across three core outcome areas: software design and engineering, algorithms and data structures, and database implementation. Each enhancement demonstrates not only technical growth, but also my ability to evaluate existing systems, identify weaknesses, and implement structured improvements. Together, these artifacts reflect both my technical development and my ability to think critically about system architecture, performance, and maintainability.
-</p>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
 
-<h3>Enhancement 1: Software Design & Engineering</h3>
-<ul>
-  <li>
-    <a href="narratives/Artifact1-SoftwareDesign-Narrative.pdf" target="_blank">
-    View Narrative (PDF)
-    </a>
-  </li>
-  <li>
-    <a href="artifacts/artifact1/" target="_blank">
-    View Artifact Files
-    </a>
-  </li>
-</ul>
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 16px;
+    }
 
-<h3>Enhancement 2: Algorithms & Data Structures</h3>
-<ul>
-  <li>
-    <a href="narratives/Artifact2-Algorithms-Narrative.pdf" target="_blank">
-    View Narrative (PDF)
-    </a>
-  </li>
-  <li>
-    <a href="artifacts/artifact2/" target="_blank">
-    View Artifact Files
-    </a>
-  </li>
-</ul>
+    header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 20px;
+      margin-bottom: 18px;
+    }
 
-<h3>Enhancement 3: Databases</h3>
-<ul>
-  <li>
-    <a href="narratives/Artifact3-Databases-Narrative.pdf" target="_blank">
-    View Narrative (PDF)
-    </a>
-  </li>
-  <li>
-    <a href="artifacts/artifact3/" target="_blank">
-    View Artifact Files
-    </a>
-  </li>
-</ul>
+    header h1 {
+      margin: 0 0 6px 0;
+      font-size: 28px;
+      letter-spacing: 0.2px;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 14px 0;
+    }
+
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 20px;
+    }
+
+    h3 {
+      margin: 16px 0 8px 0;
+      font-size: 16px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+      margin-top: 18px;
+      padding: 14px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Andrew Chacon</h1>
+      <p>Bachelor of Science in Computer Science</p>
+      <div class="badge">SNHU CS-499 ePortfolio</div>
+    </header>
+
+    <div class="card">
+      <h2>Introduction</h2>
+      <p>
+        This ePortfolio represents the culmination of my work throughout the Computer Science program at Southern New Hampshire University.
+        The featured artifact is a full-stack Animal Shelter Dashboard application built using Python, Dash, and MongoDB.
+        For this capstone, I revisited and enhanced the original project across three outcome areas: software design and engineering,
+        algorithms and data structures, and database implementation. These enhancements reflect my ability to critically analyze existing systems,
+        improve efficiency and structure, and implement solutions grounded in sound technical principles. The final result demonstrates both practical
+        development skills and a stronger understanding of system architecture and data management.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Professional Self-Assessment</h2>
+      <p>
+        <a href="narratives/Professional-Self-Assessment.pdf" target="_blank">
+          View Professional Self-Assessment (PDF)
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Capstone Project: Animal Shelter Dashboard (CS 340)</h2>
+      <p>
+        Below are the three enhancement narratives tied to the same artifact. Each section includes a link to the narrative and a folder containing
+        the supporting artifact materials.
+      </p>
+
+      <h3>Enhancement 1: Software Design &amp; Engineering</h3>
+      <ul>
+        <li>
+          <a href="narratives/Artifact1-SoftwareDesign-Narrative.pdf" target="_blank">View Narrative (PDF)</a>
+        </li>
+        <li>
+          <a href="artifacts/artifact1/" target="_blank">View Artifact Files</a>
+        </li>
+      </ul>
+
+      <h3>Enhancement 2: Algorithms &amp; Data Structures</h3>
+      <ul>
+        <li>
+          <a href="narratives/Artifact2-Algorithms-Narrative.pdf" target="_blank">View Narrative (PDF)</a>
+        </li>
+        <li>
+          <a href="artifacts/artifact2/" target="_blank">View Artifact Files</a>
+        </li>
+      </ul>
+
+      <h3>Enhancement 3: Databases</h3>
+      <ul>
+        <li>
+          <a href="narratives/Artifact3-Databases-Narrative.pdf" target="_blank">View Narrative (PDF)</a>
+        </li>
+        <li>
+          <a href="artifacts/artifact3/" target="_blank">View Artifact Files</a>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Andrew Chacon
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
